@@ -17,7 +17,7 @@ public class ServerPlayerMixin {
                 Integer idx = originalMessage.getString().indexOf("from");
                 return Component.literal(
                         String.format(
-                                "%s for Rbrine",
+                                "%s for Rbrine <3",
                                 originalMessage.getString().substring(0,idx-1)
                         )
                 );
@@ -25,7 +25,7 @@ public class ServerPlayerMixin {
                 Integer idx = originalMessage.getString().indexOf("from");
                 return Component.literal(
                         String.format(
-                                "%s for ecrystell",
+                                "%s for ecrystell <3",
                                 originalMessage.getString().substring(0,idx-1)
                         )
                 );
