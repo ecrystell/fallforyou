@@ -1,0 +1,16 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "dev.crystell.fallforyou.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "refmap": "fallforyou.refmap.json",
+    "mixins": [
+        "ServerPlayerMixin"
+    ],
+    "server": [
+
+    ],
+    "injectors": {
+      "defaultRequire": 1
+    }
+}
