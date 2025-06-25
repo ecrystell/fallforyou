@@ -35,7 +35,7 @@ public class ServerPlayerMixin {
         return Component.literal(
                 String.format(
                         "%s meow",
-                originalMessage
+                originalMessage.getString()
                 )
         );
     }
